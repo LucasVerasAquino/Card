@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="left-side">
+            <div class="front-card-container">
+                <img class="card-logo" src="./images/card-logo.svg" alt="" />
+                <div class="card-number">0000 0000 0000 0000</div>
+                <div class="card-owner-name">JANE APPLESEED</div>
+                <div class="card-expiration-date">00/00</div>
+                <img
+                    class="front-card"
+                    src="./images/bg-card-front.png"
+                    alt=""
+                />
+            </div>
+            <div class="back-card-container">
+                <div class="card-security-code">000</div>
+                <img class="back-card" src="./images/bg-card-back.png" alt="" />
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="form-container">
+                <form>
+                    <div class="cardholder-name-wrapper">
+                        <label for="cardholder-name-input"
+                            >CARDHOLDER NAME</label
+                        >
+                        <input
+                            type="text"
+                            class="cardholder-name-input"
+                            id="cardholder-name-input"
+                        />
+                    </div>
+                    <div class="card-number-wrapper">
+                        <label for="card-number-input">CARD NUMBER</label>
+                        <input
+                            type="text"
+                            class="card-number-input"
+                            id="card-number-input"
+                        />
+                    </div>
+                    <div class="expiration-date-and-cvc-wrapper">
+                        <div class="expiration-date-wrapper">
+                            <label>EXP. DATE (MM/YY)</label>
+                            <input type="text" placeholder="MM" /><input
+                                type="text"
+                                placeholder="YY"
+                            />
+                        </div>
+                        <div class="cvc-wrapper">
+                            <label for="cvc-input">CVC</label>
+                            <input
+                                type="text"
+                                class="cvc-input"
+                                id="cvc-input"
+                            />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
