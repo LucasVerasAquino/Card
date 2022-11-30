@@ -34,32 +34,52 @@ body {
 }
 
 .front-card-container > .front-card {
-    width: 510px;
-    height: 270px;
+    width: 480px;
+    height: 260px;
 }
 
 .back-card-container > .back-card {
-    width: 510px;
-    height: 270px;
+    width: 480px;
+    height: 260px;
 }
 
-.left-side > .card-logo {
-    top: 50px;
-    width: 100px;
+.card-logo {
+    top: 26px;
+    left: 32px;
+    width: 95px;
     position: absolute;
 }
 
 .card-number {
+    top: 155px;
+    left: 32px;
     position: absolute;
+    font-size: 26pt;
+    letter-spacing: 3px;
 }
 
 .card-owner-name {
     position: absolute;
+    left: 32px;
+    top: 210px;
+    font-size: 13pt;
 }
 
 .card-expiration-date {
     position: absolute;
+    top: 210px;
+    right: 32px;
+    font-size: 13pt;
 }
+
+.card-security-code {
+    position: absolute;
+    top: 120px;
+    right: 70px;
+    font-size: 13pt;
+    letter-spacing: 2px;
+}
+
 /* RIGHT-SIDE */
 .right-side {
     height: 100vh;
