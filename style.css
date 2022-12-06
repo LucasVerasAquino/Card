@@ -98,24 +98,4 @@ body {
     justify-content: center;
 }
 
-.form-container > form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-form > .expiration-date-and-cvc-wrapper {
-    display: flex;
-}
-
-.expiration-date-wrapper {
-}
-
-.expiration-date-wrapper > .expiration-date-input {
-    width: 20%;
-}
-
-label {
-    display: block;
-}
+/* TENTAR FAZER COM GRID */
